@@ -18,7 +18,7 @@ function App() {
 		<div className={styles.container}>
 			<div className={styles.content}>
 				{detailId
-					? <Detail onBack={onBackHandler} />
+					? <Detail recipeId={detailId} onBack={onBackHandler} />
 					: <Home onToDetail={onToDetailHandler} />
 				}
 			</div>

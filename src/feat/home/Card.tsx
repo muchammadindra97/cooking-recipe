@@ -3,14 +3,14 @@ import {FaRegBookmark} from "react-icons/fa";
 import Toast from "../../components/Toast.tsx";
 import React, {useState, useEffect} from "react";
 
-type RecipeDetail = {
+type RecipeDetailType = {
 	id: number,
 	title: string,
 	image_url: string
 }
 
 type CardProps = {
-	recipeDetail: RecipeDetail,
+	recipeDetail: RecipeDetailType,
 	onClick: () => void
 }
 

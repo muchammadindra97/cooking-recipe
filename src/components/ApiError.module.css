@@ -1,0 +1,23 @@
+.text-description {
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+}
+
+.btn-retry {
+    cursor: pointer;
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: #dc0000;
+    color: white;
+    border: none;
+    min-width: 100px;
+}
+
+.btn-retry:active {
+    background-color: #bb0000;
+}

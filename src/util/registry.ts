@@ -1,0 +1,1 @@
+export const BACKEND_URL = 'https://private-aae42-recipes28.apiary-mock.com';
