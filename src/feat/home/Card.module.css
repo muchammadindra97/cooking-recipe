@@ -1,0 +1,48 @@
+.container {
+    cursor: pointer;
+    width: 100%;
+    flex-basis: calc(50% - .5rem);
+    max-width: calc(50% - .5rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    flex-grow: 1;
+    padding-top: .25rem;
+    display: flex;
+    gap: .25rem;
+    align-items: center;
+}
+
+.thumbnail {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 1rem;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    flex-grow: 1;
+}
+
+.bookmark {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #777777;
+}
+
+.bookmark:active {
+    background-color: #d3d3d3;
+}
